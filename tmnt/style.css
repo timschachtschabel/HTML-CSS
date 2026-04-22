@@ -1,0 +1,78 @@
+/* Opdracht 2 hieronder type */
+body {
+    height: 100vh;
+    background-image: url(assets/sewermap.jpg);
+    background-size: cover;
+}
+/* Opdracht 2 hierboven type */
+
+
+/* Opdracht 3 hieronder type */
+#map {
+    background-image: url(assets/sewermap.jpg);
+    position: relative;
+    width: 1000px;
+    height: 700px;
+    }
+/* Opdracht 3 hierboven type */
+
+
+/* Opdracht 4 hieronder type */
+.map_text{
+    position: absolute;
+    background-color: white;
+    color: #543D45;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* Opdracht 4 hierboven type */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fade{
+    background-color: #000e;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#nyc{
+    left: 70px;
+    top: 100px;
+}
+
+#pizza{
+    left: 420px;
+    top: 20px;
+}
+
+#turtles{
+    bottom: 155px;
+    left: -25px;
+}
+
+#splinter{
+    bottom: 25px;
+    left: 90px;
+}
+
+#douche{
+    right: 140px;
+    bottom: 155px;
+}
+
+#dojo{
+    right: 85px;
+    top: 155px;
+}
+
+.rotate{
+    transform: rotate(-90deg);
+}

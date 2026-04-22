@@ -1,0 +1,105 @@
+/* CSS RESET */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    width: 1024px;
+    margin: auto;
+}
+
+/* HELPER CSS */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+} 
+
+.row {
+    flex-direction: row;
+}
+
+/* MY CSS */
+
+.bottomfooter {
+    align-items: center;
+}
+
+.headernav a {
+    color: #FFF;
+}
+
+.orange_text {
+    color: #F49900;
+}
+
+.orange_bg {
+    background-color: #F49900;
+}
+
+.black_bg {
+    background-color: #000;
+    color: #fff;
+}
+
+.black_text {
+    color: black;
+}
+
+.white_text {
+    color: #FFF;
+}
+
+.white_bg {
+    background-color: #fff;
+}
+
+.grey_bg {
+    background-color: #878787;
+}
+
+.light_grey_bg {
+    background-color: #EDEDED;
+}
+
+.grey_text {
+    color: #878787;
+}
+
+.headerlink a {
+    text-decoration: none;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.padding_medium {
+    padding: 20px;
+}
+
+.padding_button {
+    padding: 5px 10px;
+}
+
+.slogan {
+    padding: 50px;
+    background: url(assets/banner.png);
+    margin: 10px;
+}
+
