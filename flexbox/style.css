@@ -1,0 +1,39 @@
+.blok {
+    width: 100%;
+    background-color: #eee;
+    height: 400px;
+    margin: auto;
+    /* flexbox inschakelen op dit element */
+    display: flex;
+    /* horizontaal of verticaal */
+    flex-direction: row;
+    /* items op dezelfde rij of onder elkaar wanneer te groot */
+    flex-wrap: nowrap; 
+    /* verdeel items over de gehele breedte van het element */
+    justify-content: space-between;
+    /* verticaal  */
+    align-items: center;
+}
+
+.item {
+    background-color: #1c3051;
+    border: solid 1px #ff6600;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    flex-grow: 1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2pz #333;
+}
+
+.first {
+    order: -4;
+}
+
+.second {
+    order: -3;
+}
+
+.groter  {
+    flex-grow: 2;
+}

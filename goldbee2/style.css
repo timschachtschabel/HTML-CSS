@@ -1,0 +1,66 @@
+/* CSS RESET CODE */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 1;
+    -webkit-font-smooting: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* EIGEN CSS VANAF HIER */
+
+.flex {
+    display: flex;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+nav {
+    gap: 10px;
+}
+
+section {
+    padding: 10px 0px;
+}
+
+.smaller {
+    width: 80%;
+}
+
+button {
+    margin-top: 10px;
+}
+
+footer {
+    gap: 15px;
+}
+
+
+

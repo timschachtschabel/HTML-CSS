@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Githubform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex row space-around">
+        <section class="split left white_color">
+            <div class="detailsside">
+                <div class="leftsidecontainer">
+                    <h1>Create your free account</h1>
+                    <p>Explore GitHub's core features for individuals and organizations</p>
+                    <details>
+                        <summary>See what's included</summary>    
+                        <ul class="featureslist">
+                            <li>
+                                <strong>Access to GitHub Copilot</strong>
+                                <p>Increase your productivity and accelerate software development</p>
+                            </li>
+                            <li>
+                                <strong>Unlimited repositories</strong>
+                                <p>Collaborate securely on public and private projects.</p>
+                            </li>
+                            <li>
+                                <strong>Integrated code reviews</strong>
+                                <p>Boost code quality with built-in review tools</p>
+                            </li>
+                            <li>
+                                <strong>Automated workflows</strong>
+                                <p>Save time with CI/CD integrations and GitHub Actions</p>
+                            </li>
+                            <li>
+                                <strong>Community support</strong>
+                                <p>Connect with developers worldwide for instant feedback and insights</p>
+                            </li>
+                        </ul>
+                    </details>
+                </div>
+                <div class="leftsideimage">
+                    <img src="assets/tres-amigos@2x.webp" alt="Tres amigos">
+                </div>
+            </div>
+        </section>
+        <section class="split right">
+            <div class="rightsidecontainer">
+                <p class="righttext">Already have an account? <a class="embeddedlinktop">Sign in</a></p>
+            <form action="" class="flex column">
+                <h2>Sign up to GitHub</h2>
+                <div class="formfield flex column">
+                    <label for="email">Email*</label>
+                    <input type="email">   
+                </div>
+                <div class="formfield flex column">
+                    <label for="password">Password*</label>
+                    <input type="password">
+                    <small>Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter.</small>
+                </div>
+                <div class="formfield flex column">
+                    <label for="username">Username*</label>
+                    <input type="text">
+                    <small>Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen</small>
+                </div>
+                <div class="formfield flex column">
+                    <label for="country">Your Country/Region*</label>
+                    <select name="country" id="country">
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Germany">Germany</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="United States">United States</option>
+                    </select>
+                    <small>For compliance reasons, we're required to collect country information to send you occasional updates and announcements.</small>
+                </div>
+                <div class="formfield">
+                    <p>Email preferences</p>
+                    <input type="checkbox">
+                    <label for="checkbox">Receive occasional product updates and announcements</label>
+                </div>
+                <button class="register">Create account ></button>
+                <small>By creating an account, you agree to the <a class="embeddedlink" href="">Terms of Service</a> For more information about GitHub's practices, see the <a class="embeddedlink">GitHub Privacy Statement</a>. We'll occasionally send you account related emails.</small>
+            </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

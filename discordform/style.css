@@ -1,0 +1,156 @@
+@font-face {
+    font-family:'gg sans';
+    src: url('fonts/gg-sans-font-main/ggsans.woff2') format('woff2'),
+    url('fonts/gg-sans-font-main/ggsansbold.woff2') format('woff2'),
+    url('fonts/gg-sans-font-main/ggsansitalic.woff2') format('woff2') ;
+    font-style: normal;
+    font-weight: normal/bold;
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: url(assets/background.png);
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+    font-family: 'gg sans';
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.loginform {
+    width: 480px;
+    margin: auto;
+    background-color: #323339;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2 / 3;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formfield {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.datefields select{
+    width: 30%;
+}
+
+h1 {
+    color: #DFE0E2;
+    text-align: center;
+}
+
+label {
+    color: #DFE0E2;
+}
+
+a {
+    color: #5865F2;
+}
+
+.required {
+    color: red;
+}
+
+input {
+    background-color: #28292E !important;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px 0px;
+    color: #DFE0E2;
+}
+
+select {
+    background-color: #28292E !important;
+    border: none;   
+    color: #C0C1C5;
+    padding: 10px;
+    margin: 5px 0px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HIDE NATIVE CHECKBOX CSS */
+input[type="checkbox"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0px 5px;
+
+    /* CUSTOM CHECKBOX */
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 1px solid #C0C1C5;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+
+    display: grid;
+    place-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    background-color: #5865F2;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+.checkbox label {
+    color: #C0C1C5;
+    font-size: 0.8em;
+}
+
+button {
+    background-color: #5865F2;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: #DFE0E2;
+}

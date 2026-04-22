@@ -1,0 +1,314 @@
+/* RESET CODE */
+
+html {
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+/* MY OWN HELPER CSS SELECTORS */
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-arount {
+    justify-content: space-around;
+}
+
+/* HELPERS TO SET STYLING SO I HAVE LESS TO GO BACK TO LATER */
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 77px;
+    padding: 20px 0;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 46px;
+    padding: 0 0 30px 0;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 26px;
+}
+p, body {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #808080;
+}
+
+section {
+    padding: 50px;
+}
+
+.headernav a {
+    padding: 16px 25px;
+}
+
+/* HEADER AND BANNER SECTION */
+
+.headercontent {
+    align-items: center;
+}
+
+.logo img {
+    width: 8rem;
+    margin: 10px;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* MAKE HEADER STICKY AND TRANSPARENT */
+
+header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: rgba(037, 181, 115, 0.7);
+}
+
+/* BANNER SECTION */
+
+.banner {
+    background-image: url(images/slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    color: white;
+}
+
+.bannertitle {
+    padding-top: 200px;
+}
+
+.bannerdescription {
+    align-items: center;
+}
+
+.bannerdescription p {
+    color: white;
+}
+
+.webshopbutton {
+    color: white;
+    background-color: #25B573;
+    border: none;
+    padding: 12px 20px;
+    height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+
+.bannerdescription {
+    padding-bottom: 200px;
+}
+
+/* PRODUCTS SECTION */
+
+.product {
+    max-width: 25%;
+}
+
+.product h2 {
+    color: #25B573;
+    text-align: center;
+}
+
+.productimage img {
+    width: 100%;
+}
+
+.pricetag {
+    text-align: center;
+    background-color: #25B573;
+    color: white;
+    border-radius: 50%;
+    padding: 20px 10px;
+}
+
+.description {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.description h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.productbutton {
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.productbutton button {
+    background-color: transparent;
+    color: #25B573;
+    height: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #25B573;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.bestseller {
+    background-color: rgb(230, 230, 230, 0.6);
+    padding: 60px 30px;
+    box-shadow: 0px 5px 10px 5px rgba(128, 128, 128, 0.3);
+}
+
+
+/* CONTACT SECTION */
+
+
+.contact {
+    text-align: center;
+    background-image: url(images/bel_ons.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.contactblock p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.contactblock {
+    width: 30%;
+}
+
+.contactblock h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.contacttitle {
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.contactbutton {
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 12px 20px;
+    height: 40px;
+    width: 40%;
+    font-weight: bold;
+    border-radius: 20px;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.topfooter {
+    background-color: #353935;
+}
+
+.center {
+    text-align: center;
+}
+
+.footernav a {
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #E6E6E6;
+}
+
+.footerblock h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.bottomfooter {
+    background-color: #191919;
+    color: #808080;
+}
+
+.bottomfooter p {
+    text-align: center;
+}
+
+.footerblock input {
+    background-color: transparent;
+    border: 1px solid #25B573;
+    color: #808080;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footercontactbutton {
+    background-color: transparent;
+    color: #808080;
+    text-transform: uppercase;
+    border: 1px solid #808080;
+    padding: 12px 20px;
+    height: 40px;
+    width: 40%;
+    font-weight: bold;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footersignupbutton {
+    color: white;
+    background-color: #25B573;
+    border: none;
+    padding: 12px 20px;
+    height: 50px;
+    width: 30%;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin-right: 0;
+    align-self: end;
+    margin-top: 20px;
+}

@@ -1,0 +1,157 @@
+/* RESET CSS */
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+/* HELPER CLASSES FOR FLEXBOX */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.white_color {
+    color: white;
+}
+
+/* SPLIT SCREEN */
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    background-image: url(assets/bg-darkest-medium@2x.webp);
+}
+
+.right {
+    right: 0;
+}
+
+.leftsidecontainer {
+    width: 50%;
+    margin: auto;
+}
+
+.rightsidecontainer form {
+    width: 60%;
+    margin: auto;
+}
+
+img {
+    height: 50%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 15%;
+}
+
+
+ul {
+    list-style-image: url(assets/checkmark.png);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 20px 0px;
+}
+
+details {
+    margin-top: 15px;
+}
+
+.featureslist {
+    margin-left: 10;
+    padding-left: 10;
+}
+
+.featureslist li {
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+input {
+    color: #32383f;
+    border: 1px solid #d1d9e0 ;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+select {
+    margin: 5px 0px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #d1d9e0;
+}
+
+.formfield {
+    margin: 5px 0px;
+}
+
+.righttext {
+    text-align: right;
+    padding: 15px;
+}
+
+small {
+    color: #32383f;
+    font-size: 0.8rem;
+    opacity: 90%;
+    margin: 10px 0px;
+}
+
+a {
+    color: #0969da;
+}
+
+.register {
+    background-color: black;
+    border: 0;
+    color: white;
+    padding: 15px;
+}
+
+.register:hover {
+    background-color: #32383f;
+    color: white;
+    font-weight: bold;
+}
+.embeddedlinktop {
+    font-size: 1rem;
+}
+
+.embeddedlink {
+    font-size: 0.8rem;
+}
