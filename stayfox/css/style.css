@@ -1,0 +1,254 @@
+/* RESET CSS */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+    color: #18141C;
+    line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    background-color: whitesmoke;
+}
+
+/* DEFINE CONTAINER WIDTH FOR ALL CONTENT */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+/* FLEXBOX HELPER CLASSES */
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+/* WEBSITE ELEMENTS CSS */
+
+header {
+    background-image: linear-gradient(#FEF8EA, #FCF5E0);
+}
+
+.headernav {
+    margin: auto;
+}
+
+.headernav a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.active {
+    color: #DB8C36 !important;
+}
+
+.logo {
+    width: 40%
+}
+
+.banner {
+    background-image: url(../assets/header-vos.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 0px;
+    color: white;
+}
+
+.banner h2{
+    font-size: 2.5rem;
+    margin: 20px 0px;
+}
+
+.bannertext {
+    margin: 200px 0px;
+}
+
+.bannertext p{
+    width: 50%;
+}
+
+.aboutsection {
+    background-color: #ECEBEC;
+}
+
+.title {
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.latest {
+    background-color: whitesmoke;
+}
+
+.blog a {
+    color: #DB8C36;
+    text-decoration: none;
+}
+
+.blogposts a {
+    color: #DB8C36;
+    text-decoration: none;
+}
+
+.blogpost {
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.blogpost img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.blogposts {
+    margin: 10px;
+}
+
+.aboutcontainer {
+    padding: 40px 0px;
+}    
+
+.about_image {
+    text-align: right;
+}
+
+.about_image img {
+    width: 80%;
+    margin: auto;
+}
+
+.about h2 {
+    margin: 5px 0px 10px 0px;
+    font-size: 1.8rem;
+}
+
+.subtitle {
+    color: #DB8C36;
+    font-size: 0.8rem;
+}
+
+.aboutbutton {
+    background-color: #DB8C36;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 15px 0px 5px 0px;
+}
+
+.foxhelp {
+    max-width: 50%;
+}
+
+.topfooter {
+    padding: 20px 0px;
+}
+
+.topfooter h3 {
+    color: #DB8C36;
+    margin: 10px 0px;
+}
+
+.topfooternav {
+    max-width: 20%;
+}
+
+.topfooternav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 0px;
+}
+
+.contact {
+    max-width: 20%;
+}
+
+.contactbutton {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #DB8C36;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px
+}
+
+footer {
+    background-color: #18141C;
+    color: white;
+}
+
+.topfooter {
+    padding-bottom: 30px;
+}
+
+.bottomfooter {
+    border-top: 1px solid white;
+    padding-top: 5px;
+    font-size: 0.8rem;
+}
+
+.bottomfooter a{
+    text-decoration: none;
+    color: white;
+}
+
+/* EVENT CSS */
+
+.blogpost a:hover span {
+    padding-left: 10px;
+}
+
+.blogposts a:hover span {
+    padding-left: 10px;
+}
+
+.aboutbutton:hover {
+    background-color: black;
+}
+
+.contactbutton:hover {
+    background-color: #DB8C36;
+    color: black;
+}
+
+.topfooter a:hover {
+    color: #DB8C36;
+}
+
+.bottomfooter a:hover{
+    color: #DB8C36;
+}

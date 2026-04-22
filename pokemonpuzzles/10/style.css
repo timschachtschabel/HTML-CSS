@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img { 
+    display: block;
+    border: 5px solid black;
+}
+
+.flexcontainer {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-group {
+    display: flex;
+}
+
+.flexitem {
+    display: flex;
+}

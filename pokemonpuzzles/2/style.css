@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: inline;
+}
+
+.flexcontainer{
+    max-width: 500px;
+    display: flex;
+    /* opdracht 2 */
+    flex-direction: column;
+}

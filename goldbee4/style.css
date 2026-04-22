@@ -1,0 +1,120 @@
+/* CSS RESET CODE */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    line-height: 1;
+    -webkit-font-smooting: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* EIGEN CSS VANAF HIER */
+
+body {
+    background-image: url(assets/backgroundtile.png);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-row-wrap {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    padding: 20px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+h2 {
+    color: #fbad01;
+}
+
+nav {
+    gap: 10px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 0px 20px;
+}
+
+section {
+    padding: 10px 0px;
+}
+
+.contentitem {
+    margin: 5px;
+}
+
+.smaller {
+    width: 80%;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #fbad01;
+    padding: 10px 20px;
+    border: 0;
+    font-weight: bold;
+}
+
+.contentitem img {
+    border: 1px solid #fbad01;
+}
+
+footer {
+    gap: 15px;
+    background-color: #41403c;
+    padding: 20px;
+}
+
+footer p {
+    color: #fbad01
+}
+
+footer a {
+    color: #fff;
+}
+
+
+

@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: inline;
+}
+
+.flexcontainer{
+    max-width: 500px;
+    /* Opdracht 4 */
+    flex-direction: column;
+}

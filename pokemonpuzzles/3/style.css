@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+/* Opdracht 3 */
+.flexcontainer {
+    display: flex;
+}

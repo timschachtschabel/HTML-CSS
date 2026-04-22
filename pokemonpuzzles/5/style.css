@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.flexcontainer{
+    display: flex;
+    max-width: 500px;
+}
+
+/* Opdracht 5 */
