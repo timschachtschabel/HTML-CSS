@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #11122c;
+  color: #11122c;
+}
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #ecf1fe;
+}
+
+header,
+nav {
+  padding: 25px 40px;
+  overflow: hidden;
+}
+
+main {
+  padding: 25px 0;
+  overflow: hidden;
+}
+
+header {
+  border-bottom: 5px solid #a4515c;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  color: #a4515c;
+}
+
+header h1 img {
+  margin-right: 25px;
+}
+
+h2 {
+  color: #a4515c;
+  margin: 20px 40px 0;
+}
+
+nav h2 {
+  margin: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5px;
+}
+
+nav ul li {
+  background-color: #a4515c;
+  width: 200px;
+  transition: background-color 0.5s;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 12.5px 25px;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+nav ul li:hover {
+  background-color: #791200;
+}
+
+main h2 {
+  color: #a4515c;
+  margin-bottom: 12.5px;
+}
+
+table {
+  width: calc(100%-80px);
+  border: 1px solid #11122c;
+  font-size: 14px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+thead th,
+tbody td,
+tfoot td {
+  text-align: left;
+  border: solid 1px black;
+}
+
+thead th,
+tbody td {
+  padding: 6.75px;
+}
+
+tbody th {
+  color: #a4515c;
+}
+
+tfoot td {
+  padding: 3.5px 6.75px;
+  font-size: 12px;
+}
+
+tbody tr td[colspan="2"] {
+  background: #a4515c;
+}
+
+tbody tr:nth-child(2) {
+  background-color: #eee;
+}
+
+thead th {
+  background-color: #d3d3d3;
+  font-weight: bold;
+}
+
+tfoot td {
+  background-color: #11122c;
+  color: gray;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 12.5px;
+  margin-left: 40px;
+}
+
+form input {
+  width: 100%;
+  padding: 5px;
+}
+
+form select {
+  background-color: #efc2bb;
+  border: none;
+  padding: 5px;
+}
+
+form input[type="number"] {
+  width: 150px;
+}
+
+form button,
+form input[type="button"] {
+  padding: 10px;
+  background-color: #a4515c;
+  border: none;
+  color: #fff;
+}

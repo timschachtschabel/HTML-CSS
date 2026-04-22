@@ -1,0 +1,62 @@
+/* CSS reset */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Eigen css */
+
+body {
+    background-color: coral;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+p {
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 50%;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: yellow;
+}
+
+a {
+    color: green;
+}
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;
+}
+
+#contact {
+    font-size: 2em;
+    color: red;
+}
+
+.menu {
+    background-color: white;
+}
